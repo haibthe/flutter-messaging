@@ -14,7 +14,7 @@ void main() {
 
     expect(find.text('Hai Bui'), findsOneWidget);
     expect(find.text('@gmail.com'), findsOneWidget);
-    expect(find.byType(Icon), findsOneWidget);
+    expect(find.byType(IconButton), findsNWidgets(1));
     expect(find.byType(CircleAvatar), findsOneWidget);
   });
 }
