@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:messaging_app/config/palette.dart';
-import 'package:messaging_app/widget/conversation_bottom_sheet.dart';
+import 'package:messaging_app/pages/conversation_bottom_sheet.dart';
 
 class InputWidget extends StatelessWidget {
   final TextEditingController textEditingController = TextEditingController();

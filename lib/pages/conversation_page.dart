@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:messaging_app/config/palette.dart';
 import 'package:messaging_app/widget/chat_app_bar.dart';
 import 'package:messaging_app/widget/chat_list_widget.dart';
-import 'package:messaging_app/widget/conversation_bottom_sheet.dart';
+import 'package:messaging_app/pages/conversation_bottom_sheet.dart';
 import 'package:messaging_app/widget/input_widget.dart';
 
 class ConversationPage extends StatefulWidget {
