@@ -41,7 +41,7 @@ class ChatRowWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  DateFormat("HH:mm").format(DateTime.fromMillisecondsSinceEpoch(1565888474278)),
+                  DateFormat("kk:mm").format(DateTime.fromMillisecondsSinceEpoch(1565888474278)),
                   style: Styles.date,
                 )
               ],
