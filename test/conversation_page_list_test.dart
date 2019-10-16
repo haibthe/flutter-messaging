@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:messaging_app/pages/conversation_page.dart';
-import 'package:messaging_app/pages/conversation_page_list.dart';
 import 'package:messaging_app/pages/conversation_page_slide.dart';
 import 'package:messaging_app/widget/input_widget.dart';
 
@@ -17,6 +16,6 @@ void main() {
 
     expect(find.byType(ConversationPage), findsOneWidget);
     expect(find.byType(PageView), findsOneWidget);
-    expect(find.byType(InputWidget),findsOneWidget);
+    expect(find.byType(InputWidget), findsOneWidget);
   });
 }

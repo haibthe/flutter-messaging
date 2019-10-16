@@ -11,8 +11,6 @@ class ConversationPage extends StatefulWidget {
 }
 
 class _ConversationPageState extends State<ConversationPage> {
-
-
   @override
   Widget build(BuildContext context) {
     return Column(

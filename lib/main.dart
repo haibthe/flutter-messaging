@@ -1,9 +1,9 @@
+import 'dart:io';
+
+import 'package:flutter/foundation.dart' show debugDefaultTargetPlatformOverride;
 import 'package:flutter/material.dart';
 import 'package:messaging_app/config/palette.dart';
 import 'package:messaging_app/pages/conversation_page_slide.dart';
-import 'dart:io';
-import 'package:flutter/foundation.dart'
-    show debugDefaultTargetPlatformOverride;
 
 void _setTargetPlatformForDesktop() {
   TargetPlatform targetPlatform;

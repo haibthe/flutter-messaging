@@ -22,7 +22,7 @@ class _PassportPageState extends State<PassportPage> {
           Container(
             margin: EdgeInsets.only(top: 250),
             child: Image.asset(
-              Assets.app_icon_fg,
+              Assets.appIconForeground,
               height: 100,
             ),
           ),
@@ -37,9 +37,7 @@ class _PassportPageState extends State<PassportPage> {
               ),
             ),
           ),
-          Container(
-
-          ),
+          Container(),
         ],
       ),
     );

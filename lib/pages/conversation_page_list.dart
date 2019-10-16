@@ -3,7 +3,6 @@ import 'package:messaging_app/pages/conversation_page.dart';
 import 'package:rubber/rubber.dart';
 
 class ConversationPageList extends StatefulWidget {
-
   @override
   _ConversationPageListState createState() => new _ConversationPageListState();
 
@@ -11,7 +10,6 @@ class ConversationPageList extends StatefulWidget {
 }
 
 class _ConversationPageListState extends State<ConversationPageList> with SingleTickerProviderStateMixin {
-
   var controller;
 
   @override

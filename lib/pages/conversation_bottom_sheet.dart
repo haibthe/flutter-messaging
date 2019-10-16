@@ -9,7 +9,6 @@ class ConversationBottomSheet extends StatefulWidget {
   _ConversationBottomSheetState createState() => _ConversationBottomSheetState();
 
   const ConversationBottomSheet();
-
 }
 
 class _ConversationBottomSheetState extends State<ConversationBottomSheet> {
