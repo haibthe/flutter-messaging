@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import "package:messaging_app/main.dart";
-import 'package:messaging_app/pages/conversation_page_slide.dart';
+import 'package:messaging_app/pages/passport_page.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
@@ -15,6 +15,6 @@ void main() {
     await tester.pumpWidget(MyApp());
 
 //    expect(find.text("Hello World!"), findsOneWidget);
-    expect(find.byType(ConversationPageSlide), findsOneWidget);
+    expect(find.byType(PassportPage), findsOneWidget);
   });
 }

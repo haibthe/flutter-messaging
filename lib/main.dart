@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart' show debugDefaultTargetPlatformOverride
 import 'package:flutter/material.dart';
 import 'package:messaging_app/config/palette.dart';
 import 'package:messaging_app/pages/conversation_page_slide.dart';
+import 'package:messaging_app/pages/passport_page.dart';
 
 void _setTargetPlatformForDesktop() {
   TargetPlatform targetPlatform;
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Palette.primaryColor,
       ),
-      home: ConversationPageSlide(),
+//      home: ConversationPageSlide(),
+      home: PassportPage(),
     );
   }
 }

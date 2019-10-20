@@ -24,4 +24,10 @@ class Palette {
   //
   static Color greyColor = Colors.grey;
   static Color chatBackgroundColor = Color(0xfffafafa);
+
+  // Day 9: Passport
+  static Color primaryTextColorLight = Colors.white;
+  static Color secondaryTextColorLight = Colors.white70;
+  static Color gradientStartColor = accentColor;
+  static Color gradientEndColor = Color(0xff6aa8fd);
 }
