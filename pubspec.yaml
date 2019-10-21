@@ -57,18 +57,18 @@ flutter:
   assets:
     - assets/
     - assets/launcher/
-    - assets/fonts/
+#    - assets/fonts/
 
-  fonts:
-    - family: Manrope
-      fonts:
-        - asset: assets/fonts/manrope-regular.otf
-        - asset: assets/fonts/manrope-bold.otf
-          weight: 700
-        - asset: assets/fonts/manrope-extrabold.otf
-          weight: 800
-        - asset: assets/fonts/manrope-semibold.otf
-          weight: 400
+#  fonts:
+#    - family: Manrope
+#      fonts:
+#        - asset: assets/fonts/manrope-regular.otf
+#        - asset: assets/fonts/manrope-bold.otf
+#          weight: 700
+#        - asset: assets/fonts/manrope-extrabold.otf
+#          weight: 800
+#        - asset: assets/fonts/manrope-semibold.otf
+#          weight: 400
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
